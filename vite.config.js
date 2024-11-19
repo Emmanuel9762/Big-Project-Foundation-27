@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist',  // Ensure this is correct
+    outDir: 'dist',  // Ensure this is the directory where you want to output the build
+    assetsDir: 'assets', // Ensure this is set to organize assets properly
   },
-  base: '/', // Keep this as root or change it if you are deploying to a subdirectory
 });
 
