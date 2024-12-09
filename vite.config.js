@@ -7,6 +7,6 @@ export default defineConfig({
     outDir: 'dist',  // Ensure this is the directory where you want to output the build
     assetsDir: 'assets', // Ensure this is set to organize assets properly
   },
-  base: '/',
+  base: '/BPF27/src/App.jsx',
 });
 
